@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { personalInfo, socialLinks } from '../data/mock';
 import { Github, Linkedin, Mail, Briefcase, ChevronDown, Code2, Database, Cpu, Sparkles } from 'lucide-react';
-import profilePhoto from '../profile-photo.PNG';
+import profilePhoto from '../profile-photo.png';
 import { Button } from './ui/button';
 
 const Hero = () => {

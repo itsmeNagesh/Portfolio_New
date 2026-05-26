@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { services } from '../data/mock';
-import { Code2, Bot, Database, Briefcase, Headphones, Server } from 'lucide-react';
+import { Code2, Bot, Database, Briefcase, Headphones, Server, ArrowUpRight } from 'lucide-react';
 
 const iconMap = {
   Code2,
@@ -77,6 +77,36 @@ const Services = () => {
               </motion.div>
             );
           })}
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 18 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.1 }}
+          className="mt-8 glass rounded-2xl p-6 sm:p-8 border border-cyan-500/20"
+        >
+          <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
+            <div className="max-w-2xl">
+              <p className="text-cyan-400 font-semibold mb-2">Coursera Certification</p>
+              <h3 className="text-2xl sm:text-3xl font-bold text-white mb-3">
+                Google IT Support Professional Certificate
+              </h3>
+              <p className="text-gray-300 leading-relaxed">
+                Displayed below the services section so your Coursera certification is highlighted alongside your IT support and infrastructure offerings.
+              </p>
+            </div>
+
+            <a
+              href="https://drive.google.com/file/d/1uDFZ95d_v6xqf11etypEMqkCBpJmmwp7/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-lg bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-medium hover:opacity-90 transition"
+            >
+              View certificate
+              <ArrowUpRight className="w-4 h-4" />
+            </a>
+          </div>
         </motion.div>
       </div>
     </section>
