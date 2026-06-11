@@ -70,7 +70,7 @@ export const projects = [
     image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80",
     github: "#",
     demo: "#",
-    featured: true
+    featured: false
   },
   // {
   //   id: 3,
@@ -140,8 +140,7 @@ id: 2,
 year: "June 2023 – July 2024",
 title: "IT Support Engineer",
 company: "Agicent Technologies, Noida",
-description:
-" Diagnosed, troubleshot, and resolved complex hardware, software, and network connectivity issues for internal teams and clients."
+description: "Resolved complex hardware, software, and network infrastructure issues for internal teams and global clients. Managed system configurations, OS deployment, and user access controls while maintaining 95%+ SLA targets. Automated routine maintenance tasks to optimize hardware lifecycle and maximize company-wide productivity."
 }
 ];
 

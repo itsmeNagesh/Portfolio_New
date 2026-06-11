@@ -161,7 +161,7 @@ const Contact = () => {
                   value={formData.name}
                   onChange={handleChange}
                   className="bg-gray-900/50 border-gray-700 focus:border-cyan-500 text-white placeholder:text-gray-500"
-                  placeholder="John Doe"
+                  placeholder="Name here"
                 />
               </div>
 
@@ -177,7 +177,7 @@ const Contact = () => {
                   value={formData.email}
                   onChange={handleChange}
                   className="bg-gray-900/50 border-gray-700 focus:border-cyan-500 text-white placeholder:text-gray-500"
-                  placeholder="john@example.com"
+                  placeholder="ramson@example.com"
                 />
               </div>
 
@@ -215,9 +215,10 @@ const Contact = () => {
           viewport={{ once: true }}
           className="mt-20 pt-8 border-t border-gray-800 text-center"
         >
-          <p className="text-gray-400">
-            © 2025 {personalInfo.name}. Built with React.js & Tailwind CSS
-          </p>
+         <p className="text-gray-400">
+  © {new Date().getFullYear()} {"Nagesh"}. Built with React.js & Tailwind CSS
+</p>
+
         </motion.footer>
       </div>
       <Toaster />
