@@ -129,7 +129,7 @@ export const services = [
 export const experience = [
 {
 id: 1,
-year: "July 2024 – Present",
+year: "Aug 2024 – Aug 2026",
 title: "Assistant System Manager/IT Technical Support",
 company: "Sanskar Educational Group, Ghaziabad",
 description:
